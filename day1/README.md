@@ -81,6 +81,30 @@ Deploy a "Hello World" Lambda function with a twist:
 - [Serverless Architecture Explained](https://martinfowler.com/articles/serverless.html) by Martin Fowler
 - [AWS Lambda Best Practices](https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html)
 
+### Research
+
+#### 1. Microservices Architecture
+* **Definition:** An architectural style that structures an application as a collection of loosely coupled, independently deployable services.
+* **Serverless Implementation:**
+  - Each microservice is implemented as a separate Lambda function
+  - API Gateway routes requests to appropriate functions
+  - DynamoDB or Aurora Serverless for data persistence
+* **Benefits:**
+  - Independent scaling and deployment of services
+  - Easier maintenance and updates
+  - Improved fault isolation
+
+#### 2. Event-Driven Architecture
+* **Definition:** A software architecture pattern promoting the production, detection, consumption, and reaction to events.
+* **Serverless Implementation:**
+  - Lambda functions triggered by events from services like S3, DynamoDB, or SNS
+  - Step Functions for orchestrating complex workflows
+  - EventBridge for building event buses
+* **Benefits:**
+  - Decoupled system components
+  - Real-time processing capabilities
+  - Scalability and responsiveness
+
 ### Next Steps
 
 - Complete the tasks outlined above
