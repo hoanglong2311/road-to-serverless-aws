@@ -102,3 +102,5 @@ json: Built-in Python module for JSON operations.
 http.client: Built-in Python module for making HTTP requests.
 
 ![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
