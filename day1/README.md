@@ -37,13 +37,6 @@ Deploy a "Hello World" Lambda function with a twist:
 - Use a weather API to fetch and display current weather information
 - Trigger the function and observe the dynamic results
 
-### Research
-
-Deepen your understanding:
-- Explore serverless architecture patterns:
-  - Microservices
-  - Event-driven architectures
-- Find and analyze real-world serverless adoption case studies across different industries
 
 ### Resources
 
