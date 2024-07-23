@@ -10,9 +10,7 @@ This AWS Lambda function retrieves a random quote from the Quotable API and retu
 - [Usage](#usage)
 - [Response Format](#response-format)
 - [Error Handling](#error-handling)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -77,7 +75,8 @@ Deploy the function.
 
 ## Usage
 The function can be invoked through configured AWS triggers. It doesn't require any input parameters.
-Response Format
+
+## Response Format
 Success Response
 
 {
@@ -101,12 +100,3 @@ Dependencies
 
 json: Built-in Python module for JSON operations.
 http.client: Built-in Python module for making HTTP requests.
-
-Contributing
-Contributions to improve the function are welcome. Please follow these steps:
-
-Fork the repository.
-Create a new branch for your feature.
-Commit your changes.
-Push to the branch.
-Create a new Pull Request.
