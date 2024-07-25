@@ -118,8 +118,9 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': 'Image processed successfully'
     }
+```
 
-    Research: Lambda Performance Optimization
+### Research: Lambda Performance Optimization
 
 Minimizing package size:
 
